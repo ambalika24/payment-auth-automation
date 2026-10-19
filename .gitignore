@@ -1,0 +1,18 @@
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+
+# Playwright reports and test results
+playwright-report/
+test-results/
+blob-report/
+
+# Operating system and editor files
+.DS_Store
+.vscode/
+.idea/
